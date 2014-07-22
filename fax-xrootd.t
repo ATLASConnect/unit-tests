@@ -56,3 +56,6 @@ clean-up
 --------
   $ cd ~/faxbox
   $ rm fax-xrootd.txt
+  $ ls fax-xrootd.txt
+  ls: cannot access fax-xrootd.txt: No such file or directory
+  [2]
