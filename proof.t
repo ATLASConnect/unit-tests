@@ -29,7 +29,7 @@ setup ATLAS Local Root Base
   ...Type helpMe for more help
   ...Type printMenu to show this menu
   
-  07 Jul 2014 
+  \x1b[1m\x1b[4m07 Jul 2014\x1b[0m  (esc)
       There may be some voms-proxy errors (voms2.cern.ch and lcg-voms2.cern.ch).
        This can be ignored for now as there is a migration to new servers 
        which are not yet switched on.  However, at the end of the commands, 
@@ -44,7 +44,7 @@ Setup PoD
   Setting up gcc version gcc* (glob)
     Python version in your path is * (glob)
     Python version used to build ROOT is * (glob)
-  Setting up Python version * (Glob)
+  Setting up Python version * (glob)
   Setting up XRootD version * (glob)
   ************************************************************************
    Tip for _this_ standalone ROOT and grid (ie prun) submission:
@@ -65,6 +65,8 @@ Setup PoD
       localSetupBoost --boostVersion=<version>
     where the version must exist (showVersions --show=boost,gcc,python)
   ************************************************************************
+  Warning: PoD is supported for bash shells.
+            You are using /bin/sh (it may work !)
   Generating a default PoD configuration file...
   Generating a default PoD configuration file - DONE.
   ...Type generatePoDSetups to generate the pod-remote scripts
@@ -85,17 +87,17 @@ Setup PoD
   selecting pre-compiled bins to be added to worker package...
   PoD worker package: * (glob)
   ------------------------
-  XPROOFD [22945] port: 21001
-  PoD agent [23682] port: 22001
+  XPROOFD [*] port: * (glob)
+  PoD agent [*] port: * (glob)
   PROOF connection string: * (glob)
   ------------------------
 
 submit PROOF workers via HTCondor
 ---------------------------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/proof_submit.sh .
+  $ cp ${TESTDIR}/proof_wait.sh .
 
-  $ ./proof_submit.sh
+  $ ./proof_wait.sh
   All jobs done.
 
   $ pod-server stop
