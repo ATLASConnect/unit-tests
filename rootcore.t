@@ -275,6 +275,7 @@ recompile (can take >10 minutes)
   Compiling ../Root/*.cxx (glob)
   Running rootcint
   Compiling ../util/test_checkOQ.cxx
+  Compiling ../util/test_iso_corrections.cxx
   Compiling ../obj/egammaAnalysisUtils_Dict.cxx
   Linking ../StandAlone/libegammaAnalysisUtils.so
   Linking ../StandAlone/libegammaAnalysisUtils.a
@@ -326,12 +327,12 @@ recompile (can take >10 minutes)
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/TESUncertaintyProvider.cxx
   Making dependency for ../Root/METUtility.cxx
-  Compiling ../Root/METUtility.cxx
-  Compiling ../Root/TESUncertaintyProvider.cxx
+  Compiling ../Root/*.cxx (glob)
+  Compiling ../Root/*.cxx (glob)
   Running rootcint
   Compiling ../obj/MissingETUtility_Dict.cxx
-  Linking ../StandAlone/libMissingETUtility.so
-  Linking ../StandAlone/libMissingETUtility.a
+  Linking ../StandAlone/libMissingETUtility.* (glob)
+  Linking ../StandAlone/libMissingETUtility.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/MuonIsolationCorrection
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/IsoConfig.cxx
@@ -340,8 +341,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/*.cxx (glob)
   Running rootcint
   Compiling ../obj/MuonIsolationCorrection_Dict.cxx
-  Linking ../StandAlone/libMuonIsolationCorrection.so
-  Linking ../StandAlone/libMuonIsolationCorrection.a
+  Linking ../StandAlone/libMuonIsolationCorrection.* (glob)
+  Linking ../StandAlone/libMuonIsolationCorrection.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/TrigMuonEfficiency
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/MuonTriggerMatching.cxx
@@ -361,15 +362,15 @@ recompile (can take >10 minutes)
   ../Root/MuonTriggerMatching.cxx:398: warning: unused variable 'vIsoContainer'
   ../Root/MuonTriggerMatching.cxx:412: warning: comparison between signed and unsigned integer expressions
   Compiling ../obj/TrigMuonEfficiency_Dict.cxx
-  Linking ../StandAlone/libTrigMuonEfficiency.a
-  Linking ../StandAlone/libTrigMuonEfficiency.so
+  Linking ../StandAlone/libTrigMuonEfficiency.* (glob)
+  Linking ../StandAlone/libTrigMuonEfficiency.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/egammaEvent
   Making dependency for ../Root/LinkDef.h
   Running rootcint
   Warning: * (glob)
   Compiling ../obj/egammaEvent_Dict.cxx
-  Linking ../StandAlone/libegammaEvent.a
-  Linking ../StandAlone/libegammaEvent.so
+  Linking ../StandAlone/libegammaEvent.* (glob)
+  Linking ../StandAlone/libegammaEvent.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/IsolationScaleFactors
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/MuonIsolationSF.cxx
