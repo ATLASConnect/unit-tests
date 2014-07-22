@@ -11,7 +11,7 @@ verify transfers succeeded
   Type <CTRL-C> to cancel or bg<ENTER> to background
 
   $ cat gb_ls.txt
-  ~/globus_test.txt
+  ~/fax-globus_test.txt
 
   $ cd ~/faxbox
   $ ls globus_test.txt

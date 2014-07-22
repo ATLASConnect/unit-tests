@@ -140,8 +140,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/ApplyJetCalibration.cxx
   Running rootcint
   Compiling ../obj/ApplyJetCalibration_Dict.cxx
-  Linking ../StandAlone/libApplyJetCalibration.so
   Linking ../StandAlone/libApplyJetCalibration.a
+  Linking ../StandAlone/libApplyJetCalibration.so
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/JetResolution
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/JERProvider.cxx
@@ -163,9 +163,9 @@ recompile (can take >10 minutes)
   Making dependency for ../Root/CalibrationDataInterfaceROOT.cxx
   Making dependency for ../Root/CalibrationDataInterfaceBase.cxx
   Making dependency for ../Root/CalibrationDataContainer.cxx
-  Compiling ../Root/CalibrationDataContainer.cxx
   Compiling ../Root/CalibrationDataInterfaceBase.cxx
   Compiling ../Root/CalibrationDataInterfaceROOT.cxx
+  Compiling ../Root/CalibrationDataContainer.cxx
   Running rootcint
   Compiling ../obj/CalibrationDataInterface_Dict.cxx
   Linking ../StandAlone/libCalibrationDataInterface.so
@@ -184,17 +184,17 @@ recompile (can take >10 minutes)
   Making dependency for ../Root/StrUtil.cxx
   Making dependency for ../Root/RegularFormula.cxx
   Making dependency for ../Root/DQHelperFunctions.cxx
-  Compiling ../Root/TGRLCollection.cxx
-  Compiling ../Root/StrUtil.cxx
-  Compiling ../Root/RegularFormula.cxx
-  Compiling ../Root/TGoodRun.cxx
   Compiling ../Root/DQHelperFunctions.cxx
-  Compiling ../Root/TGoodRunsListReader.cxx
+  Compiling ../Root/RegularFormula.cxx
+  Compiling ../Root/TGRLCollection.cxx
   Compiling ../Root/TGoodRunsList.cxx
+  Compiling ../Root/TGoodRun.cxx
   Compiling ../Root/TLumiBlockRange.cxx
+  Compiling ../Root/StrUtil.cxx
+  Compiling ../Root/TGoodRunsListReader.cxx
   Compiling ../Root/TGoodRunsListWriter.cxx
-  Compiling ../Root/TMsgLogger.cxx
   Compiling ../Root/TUniqueGRLString.cxx
+  Compiling ../Root/TMsgLogger.cxx
   Running rootcint
   Compiling ../obj/GoodRunsLists_Dict.cxx
   Linking ../StandAlone/libGoodRunsLists.so
@@ -205,16 +205,16 @@ recompile (can take >10 minutes)
   Compiling ../Root/TAccept.cxx
   Running rootcint
   Compiling ../obj/ObjectSelectorCore_Dict.cxx
-  Linking ../StandAlone/libObjectSelectorCore.a
   Linking ../StandAlone/libObjectSelectorCore.so
+  Linking ../StandAlone/libObjectSelectorCore.a
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/JetSelectorTools
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/TJetCleaningTool.cxx
   Compiling ../Root/TJetCleaningTool.cxx
   Running rootcint
   Compiling ../obj/JetSelectorTools_Dict.cxx
-  Linking ../StandAlone/libJetSelectorTools.so
   Linking ../StandAlone/libJetSelectorTools.a
+  Linking ../StandAlone/libJetSelectorTools.so
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/MuonSelectorTools
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/TStandAloneMuonSelector.cxx
@@ -253,22 +253,22 @@ recompile (can take >10 minutes)
   Making dependency for ../Root/BosonPtReweightingTool.cxx
   Compiling ../Root/BosonPtReweightingTool.cxx
   Compiling ../Root/CaloIsoCorrection.cxx
-  Compiling ../Root/EisoTool.cxx
-  Compiling ../Root/EisoTool2012.cxx
-  Compiling ../Root/ElectronEfficiencySFTool.cxx
   Compiling ../Root/ConvertedPhotonScaleTool.cxx
-  Compiling ../Root/ElectronLikelihoodTool.cxx
   Compiling ../Root/ElectronMCChargeCorrector.cxx
+  Compiling ../Root/ElectronEfficiencySFTool.cxx
   Compiling ../Root/EnergyRescaler.cxx
+  Compiling ../Root/EisoTool.cxx
+  Compiling ../Root/FsrPhotons.cxx
+  Compiling ../Root/EisoTool2012.cxx
+  Compiling ../Root/ElectronLikelihoodTool.cxx
   Compiling ../Root/EnergyRescalerUpgrade.cxx
   Compiling ../Root/FudgeMCTool.cxx
-  Compiling ../Root/FsrPhotons.cxx
   Compiling ../Root/IsEMForwardDefs.cxx
   Compiling ../Root/IsEMPlusPlusDefs.cxx
   Compiling ../Root/MultiLeptonDefs.cxx
   Compiling ../Root/PhotonEfficiencySFTool.cxx
-  Compiling ../Root/PhotonIDTool.cxx
   Compiling ../Root/ProbeQualityCuts.cxx
+  Compiling ../Root/PhotonIDTool.cxx
   Compiling ../Root/VertexPositionReweightingTool.cxx
   Compiling ../Root/checkOQ.cxx
   Compiling ../Root/egammaSFclass.cxx
@@ -291,8 +291,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/EtaPhiBinning.cxx
   Running rootcint
   Compiling ../obj/MuonEfficiencyCorrections_Dict.cxx
-  Linking ../StandAlone/libMuonEfficiencyCorrections.a
   Linking ../StandAlone/libMuonEfficiencyCorrections.so
+  Linking ../StandAlone/libMuonEfficiencyCorrections.a
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/MuonMomentumCorrections
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/SmearingClass.cxx
@@ -307,8 +307,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/TPileupReweighting.cxx
   Running rootcint
   Compiling ../obj/PileupReweighting_Dict.cxx
-  Linking ../StandAlone/libPileupReweighting.a
   Linking ../StandAlone/libPileupReweighting.so
+  Linking ../StandAlone/libPileupReweighting.a
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/JetUncertainties
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/UJUncertaintyProvider.cxx
@@ -321,8 +321,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/UJUncertaintyProvider.cxx
   Running rootcint
   Compiling ../obj/JetUncertainties_Dict.cxx
-  Linking ../StandAlone/libJetUncertainties.a
   Linking ../StandAlone/libJetUncertainties.so
+  Linking ../StandAlone/libJetUncertainties.a
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/MissingETUtility
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/TESUncertaintyProvider.cxx
@@ -337,8 +337,8 @@ recompile (can take >10 minutes)
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/IsoConfig.cxx
   Making dependency for ../Root/CorrectCaloIso.cxx
-  Compiling ../Root/IsoConfig.cxx
   Compiling ../Root/CorrectCaloIso.cxx
+  Compiling ../Root/IsoConfig.cxx
   Running rootcint
   Compiling ../obj/MuonIsolationCorrection_Dict.cxx
   Linking ../StandAlone/libMuonIsolationCorrection.so
@@ -353,29 +353,30 @@ recompile (can take >10 minutes)
   Making dependency for ../Root/ElectronTriggerMatching.cxx
   Compiling ../Root/ElectronTriggerMatching.cxx
   Compiling ../Root/HSG3TrigLeptonSFTool.cxx
-  Compiling ../Root/LeptonTriggerMatching.cxx
   Compiling ../Root/LeptonTriggerSF.cxx
-  Compiling ../Root/MuonTriggerMatching.cxx
   Compiling ../Root/MuonHypothesis.cxx
+  Compiling ../Root/LeptonTriggerMatching.cxx
+  Compiling ../Root/MuonTriggerMatching.cxx
   Running rootcint
   ../Root/MuonTriggerMatching.cxx: In member function 'double MuonTriggerMatching::matchedTrackDetail(MuonTriggerMatching::EFmuon&, const MuonTriggerMatching::EFmuon&, double, double, const std::string&, const std::string&, const std::string&)':
   ../Root/MuonTriggerMatching.cxx:398: warning: unused variable 'vIsoContainer'
   ../Root/MuonTriggerMatching.cxx:412: warning: comparison between signed and unsigned integer expressions
   Compiling ../obj/TrigMuonEfficiency_Dict.cxx
-  Linking ../StandAlone/libTrigMuonEfficiency.so
   Linking ../StandAlone/libTrigMuonEfficiency.a
+  Linking ../StandAlone/libTrigMuonEfficiency.so
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/egammaEvent
   Making dependency for ../Root/LinkDef.h
   Running rootcint
+  Warning: * (glob)
   Compiling ../obj/egammaEvent_Dict.cxx
-  Linking ../StandAlone/libegammaEvent.so
   Linking ../StandAlone/libegammaEvent.a
+  Linking ../StandAlone/libegammaEvent.so
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/IsolationScaleFactors
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/MuonIsolationSF.cxx
   Making dependency for ../Root/ElecIsolationSF.cxx
-  Compiling ../Root/MuonIsolationSF.cxx
   Compiling ../Root/ElecIsolationSF.cxx
+  Compiling ../Root/MuonIsolationSF.cxx
   Running rootcint
   Compiling ../obj/IsolationScaleFactors_Dict.cxx
   Linking ../StandAlone/libIsolationScaleFactors.so
@@ -423,18 +424,18 @@ recompile (can take >10 minutes)
   Making dependency for ../Root/EFEventTrigD3PDObject.cxx
   Making dependency for ../Root/Config.cxx
   Making dependency for ../Root/CalculateHelper.cxx
-  Compiling ../Root/EFEventTrigD3PDObject.cxx
   Compiling ../Root/CalculateHelper.cxx
   Compiling ../Root/Config.cxx
-  Compiling ../Root/ElectronD3PDObject.cxx
-  Compiling ../Root/GenEventD3PDObject.cxx
-  Compiling ../Root/Jet4LCD3PDObject.cxx
   Compiling ../Root/EventInfoD3PDObject.cxx
-  Compiling ../Root/Jetkt6LCD3PDObject.cxx
-  Compiling ../Root/GetVtxWeight.cxx
+  Compiling ../Root/EFEventTrigD3PDObject.cxx
+  Compiling ../Root/GenEventD3PDObject.cxx
+  Compiling ../Root/ElectronD3PDObject.cxx
+  Compiling ../Root/Jet4LCD3PDObject.cxx
   Compiling ../Root/JetTruthD3PDObject.cxx
-  Compiling ../Root/JetD3PDObject.cxx
   Compiling ../Root/Jet6LCD3PDObject.cxx
+  Compiling ../Root/JetD3PDObject.cxx
+  Compiling ../Root/GetVtxWeight.cxx
+  Compiling ../Root/Jetkt6LCD3PDObject.cxx
   Compiling ../Root/KFRescaler.cxx
   Compiling ../Root/L1EventTrigD3PDObject.cxx
   Compiling ../Root/METD3PDObject.cxx
@@ -458,23 +459,23 @@ recompile (can take >10 minutes)
   Compiling ../Root/mHreweighting.cxx
   Running rootcint
   Compiling ../obj/HWWNtupleCode_Dict.cxx
-  Linking ../StandAlone/libHWWNtupleCode.a
   Linking ../StandAlone/libHWWNtupleCode.so
+  Linking ../StandAlone/libHWWNtupleCode.a
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/HWWlvlvCode
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/MyMuonTools_lvlv.cxx
   Making dependency for ../Root/MyJetTools_lvlv.cxx
   Making dependency for ../Root/MyElectronTools_lvlv.cxx
   Making dependency for ../Root/HWWlvlvCode.cxx
-  Compiling ../Root/HWWlvlvCode.cxx
   Compiling ../Root/MyElectronTools_lvlv.cxx
   Compiling ../Root/MyJetTools_lvlv.cxx
+  Compiling ../Root/HWWlvlvCode.cxx
   Compiling ../Root/MyMuonTools_lvlv.cxx
+  Running rootcint
   ../Root/HWWlvlvCode.cxx: In member function 'virtual Bool_t HWWlvlvCode::Process(Long64_t)':
   ../Root/HWWlvlvCode.cxx:1056: warning: comparison between signed and unsigned integer expressions
   ../Root/HWWlvlvCode.cxx:1838: warning: comparison between signed and unsigned integer expressions
   ../Root/HWWlvlvCode.cxx:1839: warning: comparison between signed and unsigned integer expressions
-  Running rootcint
   Compiling ../obj/HWWlvlvCode_Dict.cxx
   Linking ../StandAlone/libHWWlvlvCode.so
   Linking ../StandAlone/libHWWlvlvCode.a
@@ -504,5 +505,3 @@ run job
   ERROR: Quitting now !
   (int)1
   stop: * (glob)
-
-TODO: figure out errors above
