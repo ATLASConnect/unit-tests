@@ -65,10 +65,8 @@ Setup PoD
       localSetupBoost --boostVersion=<version>
     where the version must exist (showVersions --show=boost,gcc,python)
   ************************************************************************
-  Warning: PoD is supported for bash shells.
+  Warning: PoD is supported for bash shells. 
             You are using /bin/sh (it may work !)
-  Generating a default PoD configuration file...
-  Generating a default PoD configuration file - DONE.
   ...Type generatePoDSetups to generate the pod-remote scripts
   $ generatePoDSetups
   
@@ -94,9 +92,6 @@ Setup PoD
 
 submit PROOF workers via HTCondor
 ---------------------------------
-Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/proof_wait.sh .
-
   $ ./proof_wait.sh
   All jobs done.
 
