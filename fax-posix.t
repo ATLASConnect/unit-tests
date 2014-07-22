@@ -15,9 +15,9 @@ check
   posix-test.txt
 
 write out of faxbox
-  $ mv posix-test.txt ${TESTDIR}/unit-tests/retrieved.txt
+  $ mv posix-test.txt ${TESTDIR}/retrieved.txt
 
 check
-  $ cd ${TESTDIR}/unit-tests
+  $ cd ${TESTDIR}
   $ ls retrieved.txt
   retrieved.txt
