@@ -1,6 +1,6 @@
 prologue
 --------
-  $ cd ${TESTDIR}/unit-tests
+  $ cd ${TESTDIR}
   
 faxbox
 ------

@@ -1,6 +1,6 @@
 prologue
 --------
-  $ cd ${TESTDIR}/unit-tests/atlas-root
+  $ cd ${TESTDIR}/atlas-root
   
 setup ALRB and ROOT
 -------------------

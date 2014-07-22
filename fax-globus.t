@@ -1,6 +1,6 @@
 verify transfers succeeded
 --------
-  $ cd ${TESTDIR}/unit-tests
+  $ cd ${TESTDIR}
 
   $ cat gb_to_fax.txt | head -2
   Task ID: * (glob)

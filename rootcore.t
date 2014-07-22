@@ -1,6 +1,6 @@
 prologue
 --------
-  $ cd ${TESTDIR}/atlas-rootcore
+  $ cd ${TESTDIR}
   
 setup ALRB and ROOT
 -------------------
