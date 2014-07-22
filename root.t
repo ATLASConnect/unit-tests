@@ -60,5 +60,3 @@ run the tutorial with condor:
 
   $ ./run_and_wait.sh rcc.cmd
   All jobs done.
-
-TODO: test grid proxy
