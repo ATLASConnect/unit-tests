@@ -28,25 +28,25 @@ setup
   ...Type helpMe for more help
   ...Type printMenu to show this menu
   
-  07 Jul 2014
+  \x1b[1m\x1b[4m07 Jul 2014\x1b[0m  (esc)
       There may be some voms-proxy errors (voms2.cern.ch and lcg-voms2.cern.ch).
-       This can be ignored for now as there is a migration to new servers
-       which are not yet switched on.  However, at the end of the commands,
+       This can be ignored for now as there is a migration to new servers 
+       which are not yet switched on.  However, at the end of the commands, 
        you must see a successful attempt and obtain a valid proxy.
   
   $ localSetupXRootD
-  Setting up XRootD version * (glob)
+  Setting up XRootD version 4.0.2-x86_64-slc6
 
 faxbox
 ------
   $ touch fax-xrootd.txt
   $ xrdcp -fv fax-xrootd.txt root://faxbox.usatlas.org://user/jenkins/fax-xrootd.txt
   
-  [*][100%][==================================================][*B/s] (glob)
+  [0B/0B][100%][==================================================][0B/s]  
 
   $ xrdcp root://faxbox.usatlas.org://user/jenkins/fax-xrootd.txt retrieved.txt
   
-  [*][100%][==================================================][*B/s] (glob)
+  [0B/0B][100%][==================================================][0B/s]  
 
 check
   $ ls retrieved.txt
