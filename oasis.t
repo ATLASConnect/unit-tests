@@ -9,9 +9,9 @@ check OASIS and PALMS
 
   $ palmsdosetup R
   $ R --version
-  R version 3.0.1 (2013-05-16) -- "Good Sport"
+  R version 3.0.2 (2013-09-25) -- "Frisbee Sailing"
   Copyright (C) 2013 The R Foundation for Statistical Computing
-  Platform: x86_64-unknown-linux-gnu (64-bit)
+  Platform: x86_64-redhat-linux-gnu (64-bit)
   
   R is free software and comes with ABSOLUTELY NO WARRANTY.
   You are welcome to redistribute it under the terms of the
