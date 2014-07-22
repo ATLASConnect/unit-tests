@@ -1,7 +1,7 @@
 prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-quickstart .
-  $ cd tutorial-quickstart
+  $ cp -a ${TESTDIR}/atlas-quickstart .
+  $ cd atlas-quickstart
 
 short.sh
 --------
