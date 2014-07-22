@@ -56,4 +56,3 @@ clean-up
 --------
   $ cd ~/faxbox
   $ rm fax-xrootd.txt
-.
