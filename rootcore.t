@@ -367,7 +367,6 @@ recompile (can take >10 minutes)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/egammaEvent
   Making dependency for ../Root/LinkDef.h
   Running rootcint
-  Warning: * (glob)
   Compiling ../obj/egammaEvent_Dict.cxx
   Linking ../StandAlone/libegammaEvent.* (glob)
   Linking ../StandAlone/libegammaEvent.* (glob)
