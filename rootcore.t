@@ -156,8 +156,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/ApplyJetSmearing.cxx
   Running rootcint
   Compiling ../obj/ApplyJetResolutionSmearing_Dict.cxx
-  Linking ../StandAlone/libApplyJetResolutionSmearing.so
-  Linking ../StandAlone/libApplyJetResolutionSmearing.a
+  Linking ../StandAlone/libApplyJetResolutionSmearing.* (glob)
+  Linking ../StandAlone/libApplyJetResolutionSmearing.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/CalibrationDataInterface
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/CalibrationData* (glob)
@@ -168,8 +168,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/CalibrationData* (glob)
   Running rootcint
   Compiling ../obj/CalibrationDataInterface_Dict.cxx
-  Linking ../StandAlone/libCalibrationDataInterface.so
-  Linking ../StandAlone/libCalibrationDataInterface.a
+  Linking ../StandAlone/libCalibrationDataInterface.* (glob)
+  Linking ../StandAlone/libCalibrationDataInterface.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/GoodRunsLists
   configuring GoodRunsList package
   Making dependency for ../Root/LinkDef.h
@@ -223,8 +223,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/T*Selector.cxx (glob)
   Running rootcint
   Compiling ../obj/MuonSelectorTools_Dict.cxx
-  Linking ../StandAlone/libMuonSelectorTools.so
-  Linking ../StandAlone/libMuonSelectorTools.a
+  Linking ../StandAlone/libMuonSelectorTools.* (glob)
+  Linking ../StandAlone/libMuonSelectorTools.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/egammaAnalysisUtils
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../util/test_iso_corrections.cxx
@@ -273,9 +273,9 @@ recompile (can take >10 minutes)
   Compiling ../Root/*.cxx (glob)
   Compiling ../Root/*.cxx (glob)
   Compiling ../Root/*.cxx (glob)
-  Running rootcint
-  Compiling ../util/test_checkOQ.cxx
-  Compiling ../util/test_iso_corrections.cxx
+  * (glob)
+  * (glob)
+  * (glob)
   Compiling ../obj/egammaAnalysisUtils_Dict.cxx
   Linking ../StandAlone/libegammaAnalysisUtils.so
   Linking ../StandAlone/libegammaAnalysisUtils.a
@@ -379,8 +379,8 @@ recompile (can take >10 minutes)
   Compiling ../Root/MuonIsolationSF.cxx
   Running rootcint
   Compiling ../obj/IsolationScaleFactors_Dict.cxx
-  Linking ../StandAlone/libIsolationScaleFactors.so
-  Linking ../StandAlone/libIsolationScaleFactors.a
+  Linking ../StandAlone/libIsolationScaleFactors.* (glob)
+  Linking ../StandAlone/libIsolationScaleFactors.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/ggFReweighting
   Making dependency for ../Root/LinkDef.h
   Making dependency for ../Root/ggFReweighting.cxx
