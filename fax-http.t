@@ -25,7 +25,7 @@ write out of faxbox
 
 verify file received
   $ ls http-test.txt
-  $ http-test.txt
+  http-test.txt
 
 clean up
 --------
