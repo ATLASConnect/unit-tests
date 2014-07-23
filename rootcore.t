@@ -367,15 +367,16 @@ recompile (can take >10 minutes)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/egammaEvent
   Making dependency for ../Root/LinkDef.h
   Running rootcint
+  Warning: * (glob)
   Compiling ../obj/egammaEvent_Dict.cxx
   Linking ../StandAlone/libegammaEvent.* (glob)
   Linking ../StandAlone/libegammaEvent.* (glob)
   compiling /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/IsolationScaleFactors
   Making dependency for ../Root/LinkDef.h
-  Making dependency for ../Root/MuonIsolationSF.cxx
-  Making dependency for ../Root/ElecIsolationSF.cxx
-  Compiling ../Root/ElecIsolationSF.cxx
-  Compiling ../Root/MuonIsolationSF.cxx
+  Making dependency for ../Root/*.cxx (glob)
+  Making dependency for ../Root/*.cxx (glob)
+  Compiling ../Root/*.cxx (glob)
+  Compiling ../Root/*.cxx (glob)
   Running rootcint
   Compiling ../obj/IsolationScaleFactors_Dict.cxx
   Linking ../StandAlone/libIsolationScaleFactors.* (glob)
@@ -476,8 +477,8 @@ recompile (can take >10 minutes)
   * (glob)
   * (glob)
   Compiling ../obj/HWWlvlvCode_Dict.cxx
-  Linking ../StandAlone/libHWWlvlvCode.so
-  Linking ../StandAlone/libHWWlvlvCode.a
+  Linking ../StandAlone/libHWWlvlvCode.* (glob)
+  Linking ../StandAlone/libHWWlvlvCode.* (glob)
   
   Processing /home/jenkins/workspace/ATLAS_Connect_RootCore/unit-tests/AnalysisExample/RootCore/scripts/load_packages.C...
 
