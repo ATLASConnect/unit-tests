@@ -98,7 +98,3 @@ submit PROOF workers via HTCondor
   $ pod-server stop
   Stopping PoD server...
   Gracefully shut down PoD server process(es): * (glob)
-
-TODO:ROOT? 
-root> TProofBench pb("pod://")
-root> pb.RunCPU()
