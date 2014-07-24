@@ -129,7 +129,7 @@ copy file from FAX to local disk
 --------------------------------
   $ xrdcp $STORAGEPREFIX/atlas/rucio/user/ivukotic:group.test.hc.NTUP_SMWZ.root /tmp/myLocalCopy.root > xrdcp.txt 2>&1
   $ if cat xrdcp.txt | grep 100% >/dev/null; then echo success; fi
-  success 
+  success
 
 clean up
 --------
