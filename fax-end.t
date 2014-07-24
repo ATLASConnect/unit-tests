@@ -127,5 +127,13 @@ create proxy
 
 copy file from FAX to local disk
 --------------------------------
-  $ xrdcp $STORAGEPREFIX/atlas/rucio/user/ivukotic:group.test.hc.NTUP_SMWZ.root/tmp/myLocalCopy.root
+  $ xrdcp $STORAGEPREFIX/atlas/rucio/user/ivukotic:group.test.hc.NTUP_SMWZ.root /tmp/myLocalCopy.root > xrdcp.txt 2>&1
+  $ cat xrdcp.txt | tail -1
   [760.2MB/760.2MB][100%][==================================================]*/s] (glob)
+
+clean up
+--------
+  $ rm /tmp/myLocalCopy.root
+  $ ls /tmp/myLocalCopy.root
+  ls: cannot access /tmp/myLocalCopy.root: No such file or directory
+  [2]
