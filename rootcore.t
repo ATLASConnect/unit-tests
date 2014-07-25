@@ -140,23 +140,13 @@ recompile (can take >10 minutes)
 run job
 -------
   $ cd HWWlvlvCode/Run/
-  $ ./run_MC12a_DATA.sh 125 Nominal
-  Mass = 125
-  Type = Nominal
-  start: * (glob)
-  
-  Processing run_macro_fileinput.cxx("","HWWSkimmedNTUP","Nominal",125)...
-   kfactors read successfully! 
-  XrdSec: No authentication protocols are available.
-  Error in <TXNetSystem::Connect>: some severe error occurred while opening the connection at root://dcdoor11.usatlas.bnl.gov//atlas/rucio/user/flegger:NTUP_SMWZ.00986521._000010.BNL-ATLAS.root.1 - exit
-     'cannot obtain credentials for protocol: Secgsi: ErrParseBuffer: error getting user proxies: kXGS_init: unable to get protocol object.'
-  Error in <TXNetSystem::TXNetSystem>: fatal error: connection creation failed.
-  XrdSec: No authentication protocols are available.
-  Error in <TXNetFile::CreateXClient>: open attempt failed on root://dcdoor11.usatlas.bnl.gov//atlas/rucio/user/flegger:NTUP_SMWZ.00986521._000010.BNL-ATLAS.root.1
-  Total number of entries in chain (after all the files) 0
-  Total number of files 1
-  ERROR: Total number of entries in chain == 0 !
-  ERROR: Possible setup problem with input file access !
-  ERROR: Quitting now !
-  (int)1
+  $ ./run_MC12a_DATA.sh 125 Nominal > job-output.txt 2>&1
+  $ cat job-output.txt | tail -7
+  Number of events processed 36457 and written to the dilepton ntuple 520 and to the MVA one 84
+  run_macro_fileinput.cxx:93: RuntimeWarning: Automatic variable retval is allocated
+    retval = inputChain->Process(NtupleMaker,options);
+  nevtpre = 36457
+  nevt = 36457
+  (int)0
   stop: * (glob)
+  
