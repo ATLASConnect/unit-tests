@@ -1,5 +1,6 @@
 create proxy
 ------------
+  $ cd ${TESTDIR}
   $ voms-proxy-init -voms atlas > output.txt 2>&1
   $ cat output.txt | tail -3
   Created proxy in /tmp/x509up_u21738.
