@@ -28,26 +28,27 @@ setup ALRB and ROOT
   ...Type helpMe for more help
   ...Type printMenu to show this menu
   
-  \x1b[1m\x1b[4m07 Jul 2014\x1b[0m (esc)
+  \x1b[1m\x1b[4m07 Jul 2014\x1b[0m  (esc)
       There may be some voms-proxy errors (voms2.cern.ch and lcg-voms2.cern.ch).
-       This can be ignored for now as there is a migration to new servers
-       which are not yet switched on. However, at the end of the commands,
+       This can be ignored for now as there is a migration to new servers 
+       which are not yet switched on.  However, at the end of the commands, 
        you must see a successful attempt and obtain a valid proxy.
   
   $ export RUCIO_ACCOUNT=jenkins
   $ localSetupFAX --rootVersion=current-SL6 --xrootdVersion=current-SL6
-  Warning: Skipping this setup; grid middleware is already setup
+  Setting up emi version * (glob)
   ************************************************************************
   Setting up rucio-clients version 0.1.12-2-p1
   Info: Not a redhat derived release; setting compatibility to slc6
+  Info: Set RUCIO_AUTH_TYPE to x509_proxy
   ************************************************************************
   *****************************************************************
   Setting up DQ2 Client version 2.5.0
    DQ2_LOCAL_SITE_ID is ROAMING
-   To change this, create a file
-     $ATLAS_LOCAL_ROOT_BASE/config/localDQ2ClientSetup.sh
+   To change this, create a file 
+     $ATLAS_LOCAL_ROOT_BASE/config/localDQ2ClientSetup.sh 
    (or define $ALRB_localConfigDir)
-   containing the line
+   containing the line 
      export DQ2_LOCAL_SITE_ID=<site from dq2-sources>
   *****************************************************************
   ************************************************************************
