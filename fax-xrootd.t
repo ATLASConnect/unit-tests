@@ -7,7 +7,7 @@ setup
   $ export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
   $ source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh > setup.txt 2>&1
   $ localSetupXRootD
-  Setting up XRootD version 4.0.2-x86_64-slc6
+  Setting up XRootD version * (glob)
 
 faxbox
 ------

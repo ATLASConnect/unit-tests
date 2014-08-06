@@ -6,20 +6,7 @@ setup ALRB and ROOT
 -------------------
   $ export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
   $ source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh > setup.txt 2>&1
-  $ localSetupROOT
-  ************************************************************************
-  Setting up ROOT version * (glob)
-    Current GCC version: gcc (GCC) * (glob)
-  Setting up gcc version gcc* (glob)
-    Python version in your path is * (glob)
-    Python version used to build ROOT is * (glob)
-  Setting up Python version * (glob)
-  Setting up XRootD version * (glob)
-  ************************************************************************
-   Tip for _this_ standalone ROOT and grid (ie prun) submission:
-    avoid --athenaTag if you do not need athena
-    use --rootVer=* --cmtConfig=* (glob)
-  ************************************************************************
+  $ localSetupROOT > setup-root.txt 2>&1
 
 condor jobs
 -----------
