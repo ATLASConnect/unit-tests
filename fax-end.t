@@ -19,7 +19,7 @@ create proxy
   Your proxy is valid until * (glob)
 
   $ fax-is-dataset-covered user.ilijav.HCtest.1
-  user.ilijav.HCtest.1 \tcomplete replicas: 55 \tincomplete: 0 (esc)
+  user.ilijav.HCtest.1 \tcomplete replicas: 56 \tincomplete: 0 (esc)
 
 copy file from FAX to local disk
 --------------------------------
