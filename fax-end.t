@@ -28,7 +28,7 @@ copy file from FAX to local disk
   success
 
   $ ls myLocalCopy.root
-  /tmp/myLocalCopy.root
+  myLocalCopy.root
 
 clean up
 --------
