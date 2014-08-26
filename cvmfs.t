@@ -1,8 +1,8 @@
 check cvmfs directory
 ---------------------
   $ cd ${TESTDIR}
-  $ ls /cvmfs
-  atlas.cern.ch
+  $ ls /cvmfs/atlas.cern.ch
+  repo
 
 check that ALRB setup works
 ---------------------------
