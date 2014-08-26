@@ -10,4 +10,5 @@ check that ALRB setup works
   $ alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
   $ setupATLAS > setup.txt 2>&1
 
-  $ cd
+  $ cat setup.txt | grep XRootD
+  ...Type localSetupXRootD to setup XRootD
