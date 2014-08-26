@@ -1,5 +1,6 @@
 check cvmfs directory
 ---------------------
+  $ cd ${TESTDIR}
   $ ls /cvmfs
   atlas.cern.ch
 
