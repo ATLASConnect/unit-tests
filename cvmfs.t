@@ -7,4 +7,5 @@ check cvmfs directory
 check that ALRB setup works
 ---------------------------
   $ export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
-  $ source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh > setup.txt 2>&1
+  $ alias setupATLAS='source ${ATLAS_LOCAL_ROOT_BASE}/user/atlasLocalSetup.sh'
+  $ setupATLAS > setup.txt 2>&1
